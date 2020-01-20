@@ -2,6 +2,31 @@ body {
     padding: 0;
     margin: 0;
 }
+main{
+    width:80%;
+    margin: auto;
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+#galerie{
+    margin: auto;
+}
+.galerie_list{
+    width: 60%;
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+    justify-content: space-evenly;
+ 
+}
+.galerie_list li{
+    padding: 15px;
+}
+.active{
+    font-weight: bolder;
+    border-bottom: 2px solid black;
 
 header #wrapper1 {
     display: grid;
