@@ -27,6 +27,7 @@ ul{
 .active{
     font-weight: bolder;
     border-bottom: 2px solid black;
+}
 
 header #wrapper1 {
     display: grid;
@@ -52,7 +53,11 @@ header #wrapper1 .box3 {
     grid-row-end: 4;
     background: yellow;
 }
-
+header #wrapper1 .img {
+    background-image: url('images/derek_anderson.jpg');
+    background-size: cover;
+    height: 400px;
+}
 
 .ourstories {}
 
