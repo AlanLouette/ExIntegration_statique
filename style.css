@@ -27,6 +27,7 @@ ul{
 .active{
     font-weight: bolder;
     border-bottom: 2px solid black;
+}
 
 header #wrapper1 {
     display: grid;
