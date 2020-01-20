@@ -1,0 +1,28 @@
+.footer1 {
+    display: grid;
+    grid-template-columns: 800px 400px;
+    grid-template-rows: 100px 300px;
+}
+
+#blocfooter1 {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#blocfooter2 {
+    grid-column: 2;
+    grid-row: 1;
+
+}
+
+
+#blocfooter3 {
+    grid-column: 1;
+    grid-row: 2;
+
+}
+
+#blocfooter4 {
+    grid-column: 2;
+    grid-row: 2;
+}
