@@ -58,14 +58,28 @@ header #wrapper1 .box3 {
     grid-row-end: 4;
     background: yellow;
 }
-
-header nav ul {
+header #wrapper1 .img {
+    background-image: url("images/derek_anderson.jpg");
+    background-size: cover;
+    height: 400px;
+    }
+header #menu {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
 }
-header nav ul li {
+header #menu h1 {
+    margin-top: 40px;
+}
+header #menu nav {
+    margin-top: 40px;
+}
+header #menu nav ul {
+    display: flex;
+}
+header #menu nav ul li {
     margin-right: 30px;
 }
+
 
 .ourstories {}
 
