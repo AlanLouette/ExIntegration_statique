@@ -2,29 +2,35 @@ body {
     padding: 0;
     margin: 0;
 }
-main{
-    width:80%;
+
+main {
+    width: 80%;
     margin: auto;
 }
-ul{
+
+ul {
     text-decoration: none;
     list-style: none;
 }
-#galerie{
+
+#galerie {
     margin: auto;
 }
-.galerie_list{
+
+.galerie_list {
     width: 60%;
     display: flex;
     flex-flow: row wrap;
     margin: auto;
     justify-content: space-evenly;
- 
+
 }
-.galerie_list li{
+
+.galerie_list li {
     padding: 15px;
 }
-.active{
+
+.active {
     font-weight: bolder;
     border-bottom: 2px solid black;
 }
@@ -53,11 +59,7 @@ header #wrapper1 .box3 {
     grid-row-end: 4;
     background: yellow;
 }
-header #wrapper1 .img {
-    background-image: url('images/derek_anderson.jpg');
-    background-size: cover;
-    height: 400px;
-}
+
 
 .ourstories {}
 
@@ -89,6 +91,7 @@ header #wrapper1 .img {
 #blocfooter4 {
     grid-column: 2;
     grid-row: 2;
-    justify-content: space-around;
+    justify-content: space-evenly;
     display: flex;
     margin-top: 50px;
+}
