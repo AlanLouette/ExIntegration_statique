@@ -60,7 +60,7 @@ header #menu nav ul li {
     margin-right: 30px;
 }
 
-/* GALERIE */
+/* GALERIE PAS TOUCHE*/
 main #galerie {
     margin: auto;
 }
@@ -79,6 +79,25 @@ main #galerie .active {
     font-weight: bolder;
     border-bottom: 2px solid black;
 }
+main #galerie .galerie_img_container{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+    
+main #galerie .galerie_img_item{
+    
+    width: 25%;
+    height: 200px;
+    background-color: chartreuse;
+}
+    
+main #galerie .galerie_img_item_hover{
+    opacity:0%;
+    }
+main #galerie .galerie_img_item_hover:hover{
+    opacity:100%;
+    }
 
 /* OURSTORIES */
 main #ourstories .part2 {
