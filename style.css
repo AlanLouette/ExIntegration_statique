@@ -135,7 +135,7 @@ main #ourstories .part7 {
 /* FOOTER */
 footer .footer1 {
     display: grid;
-    grid-template-columns: 80% 400px;
+    grid-template-columns: 80% 300px;
     grid-template-rows: 100px 300px;
     font-family: Arial,
         Helvetica,
@@ -148,9 +148,11 @@ footer .footer1 {
     grid-row: 1;
     border-bottom-style: solid;
     border-bottom-color: rgb(236, 235, 235);
-    border-right-style: solid;
-    border-right-color: #b5d3d3;
-    padding-top: 5px;
+        padding-top: 5px;
+    font-family: 'Playfair Display SC', sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    
 }
 
 #blocfooter2 {
@@ -160,9 +162,13 @@ footer .footer1 {
     justify-content: space-evenly;
     border-bottom-style: solid;
     border-color: rgb(236, 235, 235);
+    border-bottom-width: 50%;
     padding-left: 2em;
     padding-top: 30px;
     margin-right: 50px;
+    font-family: 'Poppins', 'nunito';
+    font-weight: bold;
+    text-align: center;
 
 
 }
@@ -172,6 +178,8 @@ footer .footer1 {
     grid-column: 1;
     grid-row: 2;
     padding-top: 40px;
+    font-family: 'Poppins', 'nunito';
+    color: grey;
 
 }
 
@@ -180,5 +188,8 @@ footer .footer1 {
     grid-row: 2;
     justify-content: space-evenly;
     display: flex;
-    padding-top: 10%;
+    padding-top: 13%;
+    padding-right: 18%;
+    margin-left: 40%;
+    
 }
