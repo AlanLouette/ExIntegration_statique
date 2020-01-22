@@ -226,6 +226,7 @@ main #galerie .galerie_img_container{
     display: flex;
     flex-flow: row wrap;
     width: 100%;
+    margin-bottom: 5rem;
 }
     
 main #galerie .galerie_img_item{
@@ -259,8 +260,7 @@ main #galerie .galerie_img_item_hover{
 
 main #galerie .galerie_img_item_hover:hover{
     opacity:100%;
-   
-    background-color:rgba(191, 217, 216, 0.9);
+    background-color:rgba(0, 0, 0, 0.7);
     }
 main #galerie .galerie_img_item_hover i{
     transform: rotate(-45deg);
@@ -273,8 +273,9 @@ main #galerie .galerie_img_item_hover_icon{
     height: 30px;
     border-radius: 25px;
     display: flex;
-    background-color:whitesmoke;
     justify-content: center;
+    background-color:lightblue;
+    color: white;
 }
 main #galerie .galerie_img_item_hover_name{
     width: 100%;
