@@ -98,7 +98,7 @@ header #wrapper1 .box3 {
 }
 
 header #wrapper1 .box3 .picture-profil {
-  background-image: url("images/derek_anderson.jpg");
+  background-image: url("../images/derek_anderson.jpg");
   background-size: cover;
   background-position: 50% 50%;
   height: 100%;
@@ -186,6 +186,7 @@ header #wrapper1 .box5 ul li {
   margin-bottom: 1em;
   color: #c2c2c2;
   height: 2em;
+  margin-bottom: -0.5em;
 }
 
 header #wrapper1 .box5 ul li .line {
