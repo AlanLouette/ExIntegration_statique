@@ -1,0 +1,36 @@
+.conteneurimg {
+    background-image: url(../images/contactus.jpg);
+    background-size: cover;
+    height: 20rem;
+    width: 25%;
+}
+
+li {
+    display: inline;
+    list-style: none;
+    color: black;
+}
+
+.ligneleft {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    z-index: 1;
+
+}
+
+.lignetitre {
+    display: flex;
+}
+
+.lignesearch {
+    margin-top: 1.5%;
+    display: flex;
+}
+
+.lignehaut {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
