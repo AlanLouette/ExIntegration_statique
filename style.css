@@ -100,6 +100,7 @@ header #wrapper1 .box3 {
 header #wrapper1 .box3 .picture-profil {
   background-image: url("images/derek_anderson.jpg");
   background-size: cover;
+  background-position: 50% 50%;
   height: 100%;
 }
 
@@ -159,13 +160,16 @@ header #wrapper1 .box4 .line {
   display: block;
   width: 68px;
   transform: rotate(90deg);
-  margin-top: 11em;
+  position: absolute;
+  left: 21px;
+  top: 636px;
 }
 
 header #wrapper1 .box4 .number {
   transform: rotate(90deg);
-  margin-top: 12em;
-  margin-left: -5em;
+  position: absolute;
+  top: 728px;
+  left: 48px;
 }
 
 header #wrapper1 .box5 {
