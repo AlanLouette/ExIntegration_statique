@@ -87,7 +87,7 @@ main #ourstories {
     grid-template-rows: 1fr 1fr 1fr 3fr 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 2%;
     width: 100%;
-    height: 1100px;
+    height: 1000px;
     margin: auto;
     margin-bottom: 500px;
 }
@@ -138,7 +138,6 @@ main #ourstories .img3 {
 }
 
 main #ourstories .img7 {
-
 }
 
 main #ourstories .part1 {
@@ -228,8 +227,8 @@ main #ourstories .trending {
     position: absolute;
     z-index: 2;
     float: right;
-    margin-left: 47%;
-    margin-top: 0.8%;
+    margin-left: 45%;
+    margin-top: 1.5%;
     background-color: white;
     padding-left: 3%;
     padding-right: 3%;
@@ -248,7 +247,6 @@ main #ourstories .part5 {
     display: flex;
     flex-flow: column wrap;
     justify-content: space-between;
-
 }
 
 main #ourstories .textpart5 {
@@ -264,13 +262,12 @@ main #ourstories .part6 {
     display: flex;
     flex-flow: column wrap;
     justify-content: space-between;
-
 }
 
 main #ourstories .textpart6 {
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 main #ourstories .part7 {
