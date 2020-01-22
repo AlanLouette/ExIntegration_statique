@@ -92,14 +92,14 @@ main #ourstories {
     margin-bottom: 500px;
 }
 
-main h1 {
+main #ourstories h1 {
     grid-column: 1 / 4;
     grid-row: 1 / 2;
     text-align: center;
     font-weight: normal;
 }
 
-main h1 hr {
+main #ourstories h1 hr {
     width: 6%;
     color: black;
     height: 2px;
@@ -246,8 +246,9 @@ main #ourstories .part5 {
     grid-column: 3 / 4;
     grid-row: 3 / 10;
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
     justify-content: space-between;
+
 }
 
 main #ourstories .textpart5 {
@@ -260,10 +261,16 @@ main #ourstories .textpart5 {
 main #ourstories .part6 {
     grid-column: 1 / 2;
     grid-row: 6 / 10;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+
 }
 
 main #ourstories .textpart6 {
-    padding-top: 15px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
 }
 
 main #ourstories .part7 {
@@ -272,8 +279,8 @@ main #ourstories .part7 {
 }
 
 main #ourstories .play {
-    margin-top: -80px;
-    margin-left: 20px;
+    margin-top: -23%;
+    margin-left: 7%;
     display: flex;
     flex-direction: row;
 }
