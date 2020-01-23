@@ -1,0 +1,22 @@
+/* Commons */
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

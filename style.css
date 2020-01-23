@@ -368,22 +368,6 @@ main #galerie .galerie_explore_button {
     background-color: rgba(191, 217, 216, 1);
 }
 
-main #galerie .galerie_img_item_hover {
-    opacity: 0%;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-end;
-    padding: 15px;
-    box-sizing: border-box;
-}
-main #galerie .galerie_img_item_hover:hover {
-    opacity: 100%;
-
-    background-color: rgba(191, 217, 216, 0.9);
-}
-
 #ourstories h1 {
     font-weight: bold;
     text-align: center;
