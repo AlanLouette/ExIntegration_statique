@@ -193,9 +193,9 @@ header .wrapper .box-2-2 .box-2-2-1 {
     background: rgba(255, 255, 255, 0.5);
     height: 201px;
     margin-right: 16.1%;
-    <<<<<<<headpositionposition: relative;
-    =======position: relative;
-    >>>>>>>devtop: -201px;
+    position: relative;
+    position: relative;
+    top: -201px;
     position: relative;
     background: linear-gradient(
         to right,
@@ -538,7 +538,6 @@ main #galerie .galerie_explore_button {
     /* justify-content: start; */
     /* height: 100%; */
 }
-<<<<<<< HEAD
 #social_connections_main_contener .social-media li {
 
     padding: unset;
@@ -624,7 +623,6 @@ footer {
     top: 36px;
     padding-left: 27px;
   }
-=======
 .social-media li {
     padding: unset;
 }
@@ -661,6 +659,7 @@ footer {
 #latestnews {
     width: 90%;
     margin: auto;
+    margin-top: 200px;
 }
 
 #latestnews h1 {
@@ -812,4 +811,3 @@ footer {
     height: auto;
     margin-right: 1em;
 }
->>>>>>> dev
