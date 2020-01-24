@@ -10,10 +10,6 @@ ul {
     padding: 0;
 }
 
-li {
-    padding: 0.5rem;
-    font-size: 0.8rem;
-}
 /* partie lucas main grid */
 #profile_main_grid {
     display: grid;
@@ -40,9 +36,8 @@ li {
     background-size: cover;
 }
 
-.profile_list_container {
-    display: flex;
-    justify-content: center;
+.profile_list_container{
+    display:flex;
 }
 .profile_list {
     width: 60%;
@@ -53,7 +48,12 @@ li {
     height: 3em;
 }
 
-.profile_list li:hover {
+.profile_list li {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.profile_list li:hover{
     box-sizing: content-box;
     font-weight: bolder;
     border-bottom: 2px solid black;
@@ -75,8 +75,6 @@ li {
     border: none;
 }
 
-#profile_main_grid #press_container .h2 {
-}
 
 #profile_main_grid #press_container {
     width: 70%;
@@ -153,5 +151,3 @@ li {
     background-color: rgba(191, 217, 216, 1);
 }
 
-#profile_main_grid #profile_main_grid #profile_main_grid #profile_main_grid
-    #profile_main_grid #profile_main_grid;
