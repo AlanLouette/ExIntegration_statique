@@ -1,32 +1,36 @@
 /* les communs  */
-ul{ 
-    margin:0;
+main {
+    width: 90%;
+    margin: auto;
+}
+
+ul {
+    margin: 0;
     list-style: none;
     padding: 0;
 }
 
 /* partie lucas main grid */
-#profile_main_grid{
+#profile_main_grid {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
     height: 80rem;
 }
-#profile_grid_item1{
-    padding:5rem;
+#profile_grid_item1 {
+    padding: 5rem;
 }
-.profile_grid_item{
+/*.profile_grid_item{
     background-color: brown;
-}
-#profile_grid_item1_image{
+}*/
+#profile_grid_item1_image {
     width: 100%;
     height: 100%;
     background-image: url("../images/portrait8.jpg");
     background-position: center;
     background-size: cover;
 }
-#profile_grid_item4{
-
+#profile_grid_item4 {
     background-image: url("../images/portrait9.jpg");
     background-position: center;
     background-size: cover;
@@ -42,7 +46,6 @@ ul{
     justify-content: space-evenly;
     margin-bottom: 3em;
     height: 3em;
-
 }
 
 .profile_list li {
@@ -55,3 +58,96 @@ ul{
     font-weight: bolder;
     border-bottom: 2px solid black;
 }
+
+/* Partie Alicia */
+
+#profile_main_grid #press_container h2 {
+    font-size: 3rem;
+    font-weight: normal;
+    margin-bottom: 0%;
+}
+
+#profile_main_grid hr {
+    width: 15%;
+    color: black;
+    height: 0.2rem;
+    background: black;
+    border: none;
+}
+
+
+#profile_main_grid #press_container {
+    width: 70%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: auto;
+    margin-top: auto;
+}
+
+#profile_main_grid #press_container .img1 {
+    background-image: url("../images/onpress1.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 40%;
+}
+
+#profile_main_grid #press_container .img2 {
+    background-image: url("../images/onpress2.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 40%;
+}
+
+#profile_main_grid #press_container .bloc {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 40%;
+    width: auto;
+    margin-top: 2rem;
+}
+
+#profile_main_grid #press_container .text {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    margin-left: 1em;
+    width: 60%;
+}
+
+#profile_main_grid #press_container .phrase {
+    margin: 0%;
+    font-size: 1.3rem;
+}
+
+#profile_main_grid #press_container .date {
+    margin: 0%;
+    color: grey;
+    font-size: 12px;
+}
+
+#hover:hover {
+    color: #c6dbdc;
+    cursor: pointer;
+}
+
+#profile_main_grid .imagehover {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    display: flex;
+}
+
+#profile_main_grid .imagehover i {
+    color: white;
+    display: block;
+    margin: auto;
+}
+
+#profile_main_grid .imagehover:hover {
+    opacity: 1;
+    background-color: rgba(191, 217, 216, 1);
+}
+
