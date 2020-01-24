@@ -10,10 +10,6 @@ ul {
     padding: 0;
 }
 
-li {
-    padding: 0.5rem;
-    font-size: 0.8rem;
-}
 /* partie lucas main grid */
 #profile_main_grid {
     display: grid;
@@ -42,7 +38,6 @@ li {
 
 .profile_list_container {
     display: flex;
-    justify-content: center;
 }
 .profile_list {
     width: 60%;
@@ -51,6 +46,11 @@ li {
     justify-content: space-evenly;
     margin-bottom: 3em;
     height: 3em;
+}
+
+.profile_list li {
+    padding: 0.5rem;
+    font-size: 0.8rem;
 }
 
 .profile_list li:hover {
