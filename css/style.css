@@ -682,6 +682,26 @@ main #galerie .galerie_explore_button {
     height: 85%;
 }
 
+#ourstories .img5 .bullets {
+    /* position: relative;
+    top: -45px;
+    left: 234px; */
+    display: inline-block;
+    color: white;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#ourstories .img5 .bullets i {
+    color: #878785;
+    font-size: 8px;
+}
+#ourstories .img5 .bullets i:nth-child(2) {
+    color: #ffffff;
+    font-size: 14px;
+}
+
 #ourstories .img6 {
     background-image: url("../images/imgpart6.jpg");
     background-size: cover;
