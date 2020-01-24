@@ -118,7 +118,7 @@ a {
     width: 60%;
     display: flex;
     justify-content: space-around;
-    align-self: end;
+    align-self: flex-end;
     background-color: white;
 }
 
@@ -185,7 +185,7 @@ a {
     background-image: url("../images/texture.jpg");
     background-position: center;
     background-size: cover;
-    align-self: end;
+    align-self: flex-end;
 
     color: white;
     text-align: center;
@@ -314,7 +314,7 @@ main #galerie .galerie_img_item_hover_icon {
 main #galerie .galerie_img_item_hover_name {
     width: 100%;
     text-align: center;
-    align-self: end;
+    align-self: flex-end;
     color: whitesmoke;
 }
 
