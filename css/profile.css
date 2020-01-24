@@ -17,9 +17,11 @@ ul {
     grid-template-rows: 50% 50%;
     height: 80rem;
 }
+
 #profile_grid_item1 {
     padding: 5rem;
 }
+
 /*.profile_grid_item{
     background-color: brown;
 }*/
@@ -30,15 +32,17 @@ ul {
     background-position: center;
     background-size: cover;
 }
+
 #profile_grid_item4 {
     background-image: url("../images/portrait9.jpg");
     background-position: center;
     background-size: cover;
 }
 
-.profile_list_container{
-    display:flex;
+.profile_list_container {
+    display: flex;
 }
+
 .profile_list {
     width: 60%;
     display: flex;
@@ -53,7 +57,7 @@ ul {
     font-size: 0.8rem;
 }
 
-.profile_list li:hover{
+.profile_list li:hover {
     box-sizing: content-box;
     font-weight: bolder;
     border-bottom: 2px solid black;
@@ -151,3 +155,62 @@ ul {
     background-color: rgba(191, 217, 216, 1);
 }
 
+/* Partie Alan */
+
+.derekpic {
+    width: 60%;
+    height: 30rem;
+    background-image: url(../images/derek_anderson.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.derekpic-logo {
+    display: flex;
+    justify-content: end;
+}
+
+
+.derekpic-rond {
+    border-radius: 50%;
+    background: white;
+    margin: 33px 35px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.derekpic-rond i {
+    position: relative;
+    left: 24px;
+    color: black;
+    cursor: pointer;
+    top: 21px;
+
+}
+
+.derekpic-enquire {
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+}
+
+.derekpic-e-bouton {
+    background: white;
+    text-align: center;
+    padding: 9px 30px 9px 30px;
+    text-align: center;
+    font-family: 'Poppins',
+        sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 12px;
+    color: #88babb;
+}
+
+.derekpic-enquire a {
+    text-decoration: none;
+}
