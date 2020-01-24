@@ -1,15 +1,146 @@
 /* les communs  */
+body{
+    margin:0;
+}
 main {
     width: 90%;
     margin: auto;
 }
 
+
 ul {
-    margin: 0;
     list-style: none;
     padding: 0;
 }
+/* header lucas */
+header{
+    height:30rem;
+    margin: 0;
+    flex-flow: row wrap;
+    display: flex;
+}
+.header_background{
+    width:20%;
+    background-color: #E2EDEF;
+    position: absolute;
 
+    height: 25rem;
+    right: 0;
+}
+.header_title{
+    width: 100%;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-left: 30%;
+}
+.header_left_content{
+    width: 40%;
+    display: flex;
+    flex-flow: row wrap;
+    height: 20rem;
+    align-self: end;
+}
+.header_left_content_bidule{
+    width: 50%;
+    align-self: flex-end;
+}
+.header_left_content_arrows{
+    display: flex;
+    width: 30%;
+    text-align: center;
+    justify-content: space-evenly;
+    align-self: end;
+    height: 1.5rem;
+}
+.header_left_content_arrows i{
+    height: min-content;
+}
+.symetry{
+    transform: rotate(180deg);
+}
+
+.header_left_content_arrows i:hover{ 
+    font-size: 1.5rem;
+    transition: 1s;
+}
+header .header_left_content_bidule ul li .line {
+    height: 2px;
+    background-color: #000;
+    display: block;
+    width: 68px;
+    opacity: 0;
+    margin: auto 1rem auto 1rem;
+  }
+  
+  header .header_left_content_bidule ul li:hover * {
+    opacity: 1;
+    cursor: pointer;
+    color: #000;
+  }
+  header .header_left_content_bidule ul {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column wrap;
+    height: 6rem;
+    width: min-content;
+    margin: auto;
+  }
+  
+  header .header_left_content_bidule ul li {
+    
+    color: #c2c2c2;
+    display: flex;
+    
+  }
+/* Super menu de la mort absolute */
+/* pour decaler le titre il suffit de bouger les margins rights  */
+.logo{
+    display: flex;
+    margin-right: 19%;
+
+    width: 10rem;
+}
+.logo img{
+    display: block;
+    margin:auto;
+}
+nav{
+    display: flex;
+    flex-flow: row wrap;
+    width: 20%; 
+    margin-left: 2rem;
+}
+.menu{
+    position: absolute;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 1;
+}
+.search_bar{
+    display:flex;
+    margin-right: 3%;
+    width: 4rem;
+}
+.search_bar i{
+    display: block;
+    margin: auto;
+}
+/* il y a des commun dans le menu sorry <3 */
+header ul{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: space-between;
+    list-style: none;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
 /* partie lucas main grid */
 #profile_main_grid {
     display: grid;
