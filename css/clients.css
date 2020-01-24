@@ -519,7 +519,8 @@ font-size: smaller;
 /* le box social media est absolute et reutilisable aussi  */
 .social-media {
     display: flex;
-    widows: 10%;
+    width: 10%;
+    /* def couleur */
     color: white;
 }
 .social-media i {
@@ -528,6 +529,7 @@ font-size: smaller;
 }
 .social-media ul {
     margin: 0;
+    /* def dirrection */
     flex-flow: column wrap;
     padding: unset;
 
