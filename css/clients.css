@@ -2,6 +2,7 @@
 body {
     padding: 0;
     margin: 0;
+    font-family: "Poppins", sans-serif;
 }
 ul {
     list-style-type: none;
@@ -96,6 +97,45 @@ header .wrapper .box-1-2-1 .social-media .number {
     width: 10%;
     transform: rotate(-90deg);
 }
+header .wrapper .box-1-2-2 {
+    width: 79%;
+}
+header .wrapper .box-1-2-2 .title {
+    margin: 12% 0 0 17%;
+}
+header .wrapper .box-1-2-2 h1 {
+    font-size: 95px;
+    font-weight: 100;
+    margin: 0;
+}
+header .wrapper .box-1-2-2 h2::after {
+    display: inline-block;
+    content: "";
+    border-top: 0.4rem solid #b5d3d3;
+    width: 6rem;
+    transform: translateY(-1rem);
+    position: relative;
+    top: 16px;
+    left: 93px;
+}
+header .wrapper .box-1-2-2 h2 {
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+header .wrapper .box-1-2-2 .btn {
+    padding: 15px 70px 15px 70px;
+    background: #b5d3d3;
+    width: 15%;
+    border-radius: 4px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 35px;
+    font-weight: 900;
+}
 header .wrapper .box-1-3 {
     background: url('../images/background_linear_blue.png');
     height: 271px;
@@ -142,5 +182,53 @@ header .wrapper .box-2-2 .picture-profil {
     margin-right: 16.1%;
 }
 
+header .wrapper .box-2-2 .box-2-2-1 {
+    background: rgba(255,255,255,0.5);
+    height: 201px;
+    margin-right: 16.1%;
+    position position: relative;
+    top: -201px;
+    position: relative;
+    background: linear-gradient(to right, white 10%, rgba(255,255,255,0.9) 25%);
+    display: flex;
+    justify-content: space-between;
+}
 
+header .wrapper .box-2-2 .box-2-2-1 .name-model {
+    padding: 9% 0 0 15%;
+}
+header .wrapper .box-2-2 .box-2-2-1 .name-model h3 {
+    font-size: 40px;
+    margin: 0;
+    font-weight: 100;
+}
+header .wrapper .box-2-2 .box-2-2-1 .name-model h4 {
+    margin: 0;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+header .wrapper .box-2-2 .box-2-2-1 .name-model h4::before {
+    display: inline-block;
+    content: "";
+    border-top: 2px solid #b5d3d3;
+    width: 71px;
+    transform: translateY(-1rem);
+    position: absolute;
+    top: 86px;
+    left: 0px;
+}
+header .wrapper .box-2-2 .box-2-2-1 .box-2-2-1-1 {
+    width: 17%;
+    background: #FFFFFF;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
+header .wrapper .box-2-2 .box-2-2-1 .box-2-2-1-1 i:first-of-type {
+    margin-bottom: 45px;
+}
