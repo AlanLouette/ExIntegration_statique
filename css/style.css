@@ -527,8 +527,6 @@ main #galerie .galerie_explore_button {
   flex-flow: row nowrap;
   justify-content: space-between;
   width: 33.33%;
-  margin-right: 1em;
-  margin-left: 1em;
 }
 
 #ourstories .block3 {
@@ -536,7 +534,8 @@ main #galerie .galerie_explore_button {
   flex-flow: row nowrap;
   justify-content: space-between;
   width: 33.33%;
-  margin-left: 1em;
+  position: relative;
+  left: 25px;
 }
 
 #ourstories .part2 {
