@@ -376,7 +376,7 @@ main #galerie #galerie_img6 {
 }
 
 main #galerie #galerie_img7 {
-  background-image: url("images/portrait7.jpg");
+  background-image: url("../images/portrait7.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -404,26 +404,33 @@ main #galerie .galerie_explore_button {
 /* main #galerie .galerie_font{
     font-family: "nunito";
 } */
+
 /* OURSTORIES */
-main #ourstories {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1fr 1fr 1fr 3fr 1fr 1fr 1fr 1fr 1fr;
-  grid-gap: 2%;
+
+#ourstories .imagehover {
   width: 100%;
-  height: 1000px;
+  height: 100%;
+  opacity: 0;
+  display: flex;
+}
+
+#ourstories .imagehover i {
+  color: white;
+  display: block;
   margin: auto;
-  margin-bottom: 500px;
 }
 
-main #ourstories h1 {
-  grid-column: 1 / 4;
-  grid-row: 1 / 2;
+#ourstories .imagehover:hover {
+  opacity: 1;
+  background-color: rgba(191, 217, 216, 1);
+}
+
+#ourstories h1 {
+  font-weight: bold;
   text-align: center;
-  font-weight: normal;
 }
 
-main #ourstories h1 hr {
+#ourstories hr {
   width: 6%;
   color: black;
   height: 2px;
@@ -431,190 +438,267 @@ main #ourstories h1 hr {
   border: none;
 }
 
-main #ourstories .date {
-  font-size: 12px;
+#ourstories .line1 {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  width: 100%;
+  height: 8rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+#ourstories .line2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  height: 800px;
+}
+
+#hover:hover {
+  color: #c6dbdc;
+  cursor: pointer;
+}
+
+#ourstories .mainblock {
+  width: 68%;
+  height: 800px;
+  display: flex;
+  flex-flow: column nowrap;
+  margin-right: 0.8rem;
+}
+
+#ourstories .part1 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 100%;
+  height: 60%;
+  background-color: yellow;
+  margin-bottom: 1rem;
+}
+
+#ourstories .text4 {
+  display: flex;
+  flex-flow: column-reverse nowrap;
+  background: #c6dbdc;
+  flex: 1;
+  color: white;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 3rem;
+}
+
+#ourstories .text4 .date {
+  color: white;
+}
+
+#ourstories .largetext {
+  font-size: 1.5rem;
+}
+
+#ourstories .secondblock {
+  width: 32%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  margin-left: 0.8rem;
+}
+
+#ourstories .text5 {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  position: relative;
+  justify-content: center;
+}
+
+#ourstories .block1 {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  width: 33.33%;
+  margin-right: 1em;
+}
+
+#ourstories .block2 {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  width: 33.33%;
+  margin-right: 1em;
+  margin-left: 1em;
+}
+
+#ourstories .block3 {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  width: 33.33%;
+  margin-left: 1em;
+}
+
+#ourstories .part2 {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  width: 100%;
+  height: 40%;
+  margin-top: 1rem;
+}
+
+#ourstories .part21 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+  height: 100%;
+  margin-right: 0.8rem;
+}
+
+#ourstories .text6 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 30%;
+  position: relative;
+  justify-content: center;
+}
+
+#ourstories .part21 .text6 .phrase {
+  padding-top: 0.8rem;
+}
+
+#ourstories .part21 .text6 .date {
+  padding-top: 0.5rem;
+}
+
+#ourstories .part22 {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  height: 100%;
+  margin-left: 0.8rem;
+}
+
+#ourstories .text {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+
+#ourstories .phrase {
+  margin: 0%;
+  font-size: 18px;
+}
+
+#ourstories .date {
+  margin: 0%;
   color: grey;
-  margin: 0%;
-}
-
-main #ourstories p {
-  font-size: 16px;
-}
-
-main #ourstories .margin {
-  margin-left: 6%;
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: space-between;
-}
-
-main #ourstories .img1 {
-  width: 180px;
-  height: auto;
-}
-
-main #ourstories .img2 {
-  width: 50%;
-}
-
-main #ourstories .img3 {
-  width: 50%;
-}
-
-main #ourstories .part1 {
-  grid-column: 1 / 2;
-  grid-row: 2 / 3;
-  display: flex;
-  flex-direction: row;
-}
-
-main #ourstories .part2 {
-  grid-column: 2 / 3;
-  grid-row: 2 / 3;
-  display: flex;
-  flex-direction: row;
-}
-
-.part1:hover {
-  color: #c6dbdc;
-  cursor: pointer;
-}
-
-.part2:hover {
-  color: #c6dbdc;
-  cursor: pointer;
-}
-
-.part3:hover {
-  color: #c6dbdc;
-  cursor: pointer;
-}
-
-.part5:hover {
-  color: #c6dbdc;
-  cursor: pointer;
-}
-
-.part6:hover {
-  color: #c6dbdc;
-  cursor: pointer;
-}
-
-.part7:hover {
-  color: #c6dbdc;
-  cursor: pointer;
-}
-
-main #ourstories .part3 {
-  grid-column: 3 / 4;
-  grid-row: 2 / 3;
-  display: flex;
-  flex-direction: row;
-}
-
-main #ourstories .part4 {
-  grid-column: 1 / 3;
-  grid-row: 3 / 6;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-main #ourstories .part4 p {
-  color: white;
-}
-
-main #ourstories .textpart4 {
-  padding-left: 6%;
-  padding-right: 6%;
-  padding-bottom: 6%;
-  display: flex;
-  flex-direction: column-reverse;
-  background-color: #c6dbdc;
-  text-align: justify;
-}
-
-main #ourstories .large {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-main #ourstories .gras {
-  font-weight: bold;
-  margin: 0%;
-}
-
-main #ourstories .trending {
-  position: absolute;
-  z-index: 2;
-  float: right;
-  margin-left: 45%;
-  margin-top: 1.5%;
-  background-color: white;
-  padding-left: 3%;
-  padding-right: 3%;
-  padding-top: 1%;
-  padding-bottom: 1%;
-  color: black;
-  text-transform: uppercase;
   font-size: 12px;
+}
+
+#ourstories .trending {
+  text-transform: uppercase;
+  background-color: white;
+  letter-spacing: 0.2rem;
   font-weight: bold;
-  letter-spacing: 4px;
+  height: 1.5rem;
+  margin: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 1rem;
 }
 
-main #ourstories .part5 {
-  grid-column: 3 / 4;
-  grid-row: 3 / 10;
+#ourstories .play {
   display: flex;
-  flex-flow: column wrap;
   justify-content: space-between;
+  text-transform: uppercase;
+  color: white;
+  margin: 2rem;
+  width: 60%;
 }
 
-main #ourstories .textpart5 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  text-align: justify;
-}
-
-main #ourstories .part6 {
-  grid-column: 1 / 2;
-  grid-row: 6 / 10;
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: space-between;
-}
-
-main #ourstories .textpart6 {
+#ourstories .playall {
+  width: 3rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.2rem;
+  font-weight: bold;
+  width: 60%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
 }
 
-main #ourstories .part7 {
-  grid-column: 2 / 3;
-  grid-row: 6 / 10;
+#ourstories #textmargin {
+  margin-left: 1em;
+  width: 100%;
 }
 
-main #ourstories .play {
-  margin-top: -23%;
-  margin-left: 7%;
+#ourstories .img1 {
+  background-image: url("../images/imgpart11.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: auto;
+  margin-right: 1em;
+}
+
+#ourstories .img2 {
+  background-image: url("../images/imgpart2.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  margin-right: 1em;
+}
+
+#ourstories .img3 {
+  background-image: url("../images/imgpart3.jpg");
+  background-size: cover;
+  background-position: right;
+  width: 100%;
+  height: auto;
+  margin-right: 1em;
+}
+
+#ourstories .img4 {
+  background-image: url("../images/imgpart4.jpg");
+  background-size: cover;
+  background-position: center;
+  flex: 2;
   display: flex;
   flex-direction: row;
+  justify-content: flex-end;
 }
 
-main #ourstories i {
-  color: white;
+#ourstories .img5 {
+  background-image: url("../images/imgpart54.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 85%;
 }
 
-main #ourstories .playall {
-  color: white;
-  font-size: 10px;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  margin-left: 25px;
-  font-weight: bold;
-  margin-top: 20px;
+#ourstories .img6 {
+  background-image: url("../images/imgpart6.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 70%;
+}
+
+#ourstories .img7 {
+  background-image: url("../images/imgpart76.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 /* FOOTER */
