@@ -391,7 +391,7 @@ main #galerie #galerie_img8 {
 }
 main #galerie .galerie_explore {
     display: flex;
-    height: 8rem;
+    height: 11rem;
 }
 main #galerie .galerie_explore_button {
     background-color: tomato;
@@ -424,14 +424,14 @@ main #galerie .galerie_explore_button {
     width: 40%;
     height: 16rem;
     background-image: url("../images/background_linear_blue.png");
-    align-self: end;
+    align-self: flex-end;
     background-position: right;
 }
 #background_mask_left {
     width: 4%;
     height: 23rem;
     background-color: #c6dbdc;
-    align-self: end;
+    align-self: flex-end;
     position: absolute;
 }
 #background_image_right_bottom {
@@ -454,7 +454,7 @@ main #galerie .galerie_explore_button {
     justify-self: baseline;
     display: flex;
     flex-flow: row wrap;
-    margin-top: 23%;
+    margin-top: 17%;
 }
 #social_connections_main_contener_top {
     height: 14rem;
@@ -523,7 +523,7 @@ main #galerie .galerie_explore_button {
 /* le box social media est absolute et reutilisable aussi  */
 #social_connections_main_contener .social-media {
     display: flex;
-    width: 10%;
+    width: 2%;
     /* def couleur */
     color: white;
 }
