@@ -8,7 +8,7 @@ Dans le cadre de la formation Becode il nous a été demandé de créer, par gro
 *
 *
 
-_Liste des collaborateurs : _
+__Liste des collaborateurs : __
 
 * [Alicia](https://github.com/Sirlys)
 * [Lucas](https://github.com/warouxlucas)
