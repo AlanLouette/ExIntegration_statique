@@ -340,37 +340,37 @@ main #galerie .galerie_img_item_hover_name {
 }
 
 main #galerie #galerie_img1 {
-  background-image: url("images/portrait1.jpg");
+  background-image: url("../images/portrait1.jpg");
   background-size: cover;
   background-position: center;
 }
 
 main #galerie #galerie_img2 {
-  background-image: url("images/portrait2.jpg");
+  background-image: url("../images/portrait2.jpg");
   background-size: cover;
   background-position: center;
 }
 
 main #galerie #galerie_img3 {
-  background-image: url("images/portrait3.jpg");
+  background-image: url("../images/portrait3.jpg");
   background-size: cover;
   background-position: center;
 }
 
 main #galerie #galerie_img4 {
-  background-image: url("images/portrait4.jpg");
+  background-image: url("../images/portrait4.jpg");
   background-size: cover;
   background-position: center;
 }
 
 main #galerie #galerie_img5 {
-  background-image: url("images/portrait5.jpg");
+  background-image: url("../images/portrait5.jpg");
   background-size: cover;
   background-position: center;
 }
 
 main #galerie #galerie_img6 {
-  background-image: url("images/portrait6.jpg");
+  background-image: url("../images/portrait6.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -382,7 +382,7 @@ main #galerie #galerie_img7 {
 }
 
 main #galerie #galerie_img8 {
-  background-image: url("images/portrait8.jpg");
+  background-image: url("../images/portrait8.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -639,6 +639,7 @@ footer .footer1 {
   font-family: "Poppins";
   font-weight: bold;
   font-size: larger;
+  padding-top: 3%;
 }
 
 #blocfooter2 {
