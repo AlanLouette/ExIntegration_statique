@@ -436,6 +436,8 @@ main #galerie .galerie_explore_button {
     height: 2px;
     background: black;
     border: none;
+    display: flex;
+    align-self: flex-start;
 }
 
 #ourstories .line1 {
