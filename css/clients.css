@@ -389,6 +389,87 @@ main #galerie #galerie_img8 {
     background-size: cover;
     background-position: center;
 }
+main #galerie #galerie_img9 {
+    background-image: url("../images/portrait1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+main #galerie #galerie_img10 {
+    background-image: url("../images/portrait2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+main #galerie #galerie_img11 {
+    background-image: url("../images/portrait3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+main #galerie #galerie_img12 {
+    background-image: url("../images/portrait4.jpg");
+    background-size: cover;
+    background-position: center;
+}
+main #galerie #galerie_img13 {
+    background-image: url("../images/portrait5.jpg");
+    background-size: cover;
+    background-position: center;
+}
+main #galerie #galerie_img14 {
+    background-image: url("../images/portrait6.jpg");
+    background-size: cover;
+    background-position: center;
+}
+main #galerie #galerie_img15 {
+    background-image: url("../images/portrait7.jpg");
+    background-size: cover;
+    background-position: center;
+}
+main #galerie #galerie_img16 {
+    background-image: url("../images/portrait8.jpg");
+    background-size: cover;
+    background-position: center;
+}
+main #galerie #galerie_img17 {
+    background-image: url("../images/portrait1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+main #galerie #galerie_img18 {
+    background-image: url("../images/portrait2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+main #galerie #galerie_img19 {
+    background-image: url("../images/portrait3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+main #galerie #galerie_img20 {
+    background-image: url("../images/portrait4.jpg");
+    background-size: cover;
+    background-position: center;
+}
+main #galerie #galerie_img21 {
+    background-image: url("../images/portrait5.jpg");
+    background-size: cover;
+    background-position: center;
+}
+main #galerie #galerie_img22 {
+    background-image: url("../images/portrait6.jpg");
+    background-size: cover;
+    background-position: center;
+}
+main #galerie #galerie_img23 {
+    background-image: url("../images/portrait7.jpg");
+    background-size: cover;
+    background-position: center;
+}
+main #galerie #galerie_img24 {
+    background-image: url("../images/portrait8.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
 main #galerie .galerie_explore {
     display: flex;
     height: 8rem;
