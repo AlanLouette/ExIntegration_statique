@@ -703,12 +703,15 @@ main #galerie .galerie_explore_button {
 
 /* FOOTER */
 
+footer {
+  padding-top: 167px;
+}
 
 .footer1 {
   background: white;
   height: 200px;
-  padding-left: 45px;
-  padding-right: 45px;
+  padding-left: 35px;
+  padding-right: 35px;
 }
 
 .footer1 .box1 {
