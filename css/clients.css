@@ -523,7 +523,8 @@ main #galerie .galerie_explore_button {
 /* le box social media est absolute et reutilisable aussi  */
 #social_connections_main_contener .social-media {
     display: flex;
-    widows: 10%;
+    width: 10%;
+    /* def couleur */
     color: white;
 }
 #social_connections_main_contener .social-media i {
@@ -532,6 +533,7 @@ main #galerie .galerie_explore_button {
 }
 #social_connections_main_contener .social-media ul {
     margin: 0;
+    /* def dirrection */
     flex-flow: column wrap;
     padding: unset;
 
