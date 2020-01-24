@@ -376,7 +376,7 @@ main #galerie #galerie_img6 {
 }
 
 main #galerie #galerie_img7 {
-  background-image: url("images/portrait7.jpg");
+  background-image: url("../images/portrait7.jpg");
   background-size: cover;
   background-position: center;
 }
