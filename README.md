@@ -1,4 +1,4 @@
-#Réalisation de cinqs pages webs
+# Réalisation de cinqs pages webs
 
 Dans le cadre de la formation Becode il nous a été demandé de créer, par groupe, cinqs pages web basées sur plusieurs modèles. Voici les liens de nos travaux :
 
@@ -8,7 +8,7 @@ Dans le cadre de la formation Becode il nous a été demandé de créer, par gro
 *
 *
 
-__Liste des collaborateurs : __
+__Liste des collaborateurs :__
 
 * [Alicia](https://github.com/Sirlys)
 * [Lucas](https://github.com/warouxlucas)
